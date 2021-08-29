@@ -11,6 +11,17 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: burlywood;
+    padding: 15px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50px 700px;
+}
+
+.side-bar {
+    background-color: aquamarine;
 }
 
 #logo {
