@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: rgba(249, 249, 249, 255);
 }
 
 
@@ -48,6 +49,7 @@
 
 .main-content iframe {
     width: 55vw;
+    height: 75vh;
 }
 
 .side-bar {
@@ -116,6 +118,14 @@
 hr {
     margin-top: 35px;
     margin-bottom: 15px;
+    border: 0 none;
+    height: 5px;
+    border-bottom: 1px solid rgb(180, 173, 173);
+}
+
+.comment-line {
+    display: flex;
+    flex-direction: column;
 }
 
 h4 {
@@ -127,11 +137,11 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 77px;
 }
 
 .more-details p {
-    margin: 15px;
+    margin-top: 15px;
 }
 
 
