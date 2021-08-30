@@ -28,26 +28,37 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
     margin-top: 3px;
-    margin-left: 255px;
+    margin-left: 55px;
 }
 
 .side-bar {
     background-color: aquamarine;
     position: fixed;
-    left: 0;
+    right: 0;
     padding: 10px;
-    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 105px;
+}
+
+.video-item {
+    margin-bottom: 25px;
+    background-color: rgb(201, 189, 18);
 }
 
 .side-bar ul {
     overflow: scroll;
     scrollbar-width: thin;
-    width: 15vw;
+    width: 37vw;
     height: 100vh;
 }
 
 .side-bar li {
     margin-bottom: 25px;
+}
+
+.side-bar li iframe {
+    width: 20vw;
+    height: 25vh;
 }
 
 #logo {
