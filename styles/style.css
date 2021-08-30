@@ -62,11 +62,11 @@
 .video-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(201, 189, 18);
 }
 
-.video-item {
-    /* margin-bottom: 10px; */
-    background-color: rgb(201, 189, 18);
+.inner-item {
+    /* margin-left: 15px; */
 }
 
 .side-bar ul {
@@ -79,6 +79,7 @@
 
 .side-bar li {
     margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .side-bar li iframe {
