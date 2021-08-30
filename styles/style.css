@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: burlywood;
+    background-color: rgba(255, 255, 255, 255);
     padding: 15px;
     position: fixed;
     top: 0;
@@ -18,38 +18,49 @@
 
 .main-grid {
     display: grid;
-    grid-template-columns: 500px 500px;
-    background-color: blue;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(255, 255, 255, 255);
     margin-top: 70px;
 }
 
 .main-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 55px;
+    height: 100vh;
+}
+
+.main-content iframe {
+    width: 55vw;
 }
 
 .side-bar {
     background-color: aquamarine;
-    position: fixed;
-    right: 0;
+    /* position: fixed; */
+    /* right: 0; */
     padding: 10px;
     padding-right: 10px;
     padding-bottom: 105px;
 }
 
 .video-item {
-    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video-item {
+    /* margin-bottom: 10px; */
     background-color: rgb(201, 189, 18);
 }
 
 .side-bar ul {
-    overflow: scroll;
+    list-style-type: none;
+    /* overflow: scroll;
     scrollbar-width: thin;
     width: 37vw;
-    height: 100vh;
+    height: 100vh; */
 }
 
 .side-bar li {
@@ -57,7 +68,7 @@
 }
 
 .side-bar li iframe {
-    width: 20vw;
+    width: 15vw;
     height: 25vh;
 }
 
@@ -65,6 +76,7 @@
     width: 5.5vw;
     height: 5vh;
     align-self: center;
+    color: cornsilk;
 }
 
 .left-icons {
