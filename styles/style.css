@@ -66,23 +66,18 @@
 }
 
 .inner-item {
-    /* margin-left: 15px; */
+    margin-left: 5px;
 }
 
 .side-bar ul {
-    list-style-type: none;
+    /* list-style-type: none; */
     /* overflow: scroll;
     scrollbar-width: thin;
     width: 37vw;
     height: 100vh; */
 }
 
-.side-bar li {
-    margin-bottom: 5px;
-    margin-right: 5px;
-}
-
-.side-bar li iframe {
+.side-bar iframe {
     width: 15vw;
     height: 25vh;
 }
@@ -94,15 +89,20 @@
     color: cornsilk;
 }
 
-.left-icons {
+
+/* .left-icons {
     display: flex;
     justify-content: center;
-}
+} */
 
-.left-icons i {
+
+/* .left-icons i {
     align-self: center;
     margin-right: 15px;
-}
+} */
+
+
+/* ===================== styling for search box icon on the navbar================= */
 
 #search-icon {
     background-color: #e9e5e5;
@@ -118,6 +118,12 @@
     border: 2px solid #e9e5e5;
 }
 
+
+/* ===================== End of styling for search box icon on the navbar================= */
+
+
+/* ===================== styling for search on the navbar================= */
+
 .search-box {
     width: 47vw;
     padding: 5px;
@@ -126,6 +132,9 @@
     height: 6.5vh;
     margin-left: 15px;
 }
+
+
+/* ===================== End of tyling for search on the navbar================= */
 
 #mic-icon {
     border-radius: 80%;
