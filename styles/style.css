@@ -140,12 +140,33 @@ hr {
     border-bottom: 1px solid rgb(180, 173, 173);
     margin-bottom: 5px;
     padding-top: 20px;
-    width: 45vw;
+    width: 100vw;
 }
 
-.more {
+.sorted-by .more {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    width: 35vw;
+}
+
+.inner-sorted img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.inner-sorted {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-sorted #sorted {
+    width: 10vw;
+    padding-top: 3px;
+}
+
+#sort-comment {
+    grid-column: 1/3;
 }
 
 .sorted-by .comment-line img {
