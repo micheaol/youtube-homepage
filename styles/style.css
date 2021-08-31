@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgba(249, 249, 249, 255);
+    /* background-color: rgba(249, 249, 249, 255); */
 }
 
 
@@ -103,7 +103,23 @@
 
 .user-details {
     display: flex;
+}
+
+.user-details .more {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 255px;
+}
+
+.user-details .more #button-id {
+    background-color: crimson;
+    color: white;
+    height: 8vh;
+    width: 10vw;
+    margin-right: 2px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
 }
 
 .user-details i {
@@ -140,7 +156,7 @@ hr {
     border-bottom: 1px solid rgb(180, 173, 173);
     margin-bottom: 5px;
     padding-top: 20px;
-    width: 100vw;
+    width: 50vw;
 }
 
 .sorted-by .more {
