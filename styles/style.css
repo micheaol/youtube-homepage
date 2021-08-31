@@ -123,6 +123,29 @@ hr {
     border-bottom: 1px solid rgb(180, 173, 173);
 }
 
+.sorted-by {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+/* .comment-line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90px;
+    background-color: blueviolet;
+} */
+
+.comment-line img {
+    width: 4vw;
+    border-radius: 50%;
+}
+
+
+/* .add-comment {
+    border-bottom: black 2px solid;
+} */
+
 .comment-line {
     display: flex;
     flex-direction: column;
