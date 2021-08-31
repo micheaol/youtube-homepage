@@ -41,6 +41,7 @@
     margin-left: 55px;
     height: 100vh;
     /* margin-bottom: 5px; */
+    background-color: rgba(249, 249, 249, 255);
 }
 
 .mid-item {
@@ -53,7 +54,7 @@
 }
 
 .side-bar {
-    background-color: aquamarine;
+    background-color: rgba(249, 249, 249, 255);
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -61,11 +62,11 @@
 .video-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(201, 189, 18);
+    background-color: rgba(249, 249, 249, 255);
 }
 
 .inner-item {
-    background-color: brown;
+    background-color: rgba(249, 249, 249, 255);
     padding: 10px;
 }
 
@@ -191,10 +192,43 @@ hr {
     border-radius: 50%;
 }
 
+.user-comment-line {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: space-between;
+}
 
-/* .add-comment {
-    border-bottom: black 2px solid;
-} */
+.user-comment-line img {
+    width: 4vw;
+    height: 10vh;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.user-comment-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-comment-details p {
+    margin-bottom: 5px;
+}
+
+.user-comment-details .likes-dislikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.user-comment-details .likes-dislikes img {
+    width: 2vw;
+}
+
+.user-comment-details .likes-dislikes p {
+    padding-top: 15px;
+    margin: 5px;
+}
 
 .comment-line {
     display: flex;
