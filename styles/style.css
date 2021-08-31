@@ -128,16 +128,29 @@ hr {
     grid-template-rows: repeat(2, 1fr);
 }
 
-
-/* .comment-line {
+.sorted-by .comment-line {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 90px;
-    background-color: blueviolet;
-} */
+    grid-gap: 5px;
+    /* background-color: rgb(118, 106, 129); */
+    width: 45vw;
+}
 
-.comment-line img {
+.sorted-by .comment-line p {
+    border-bottom: 1px solid rgb(180, 173, 173);
+    margin-bottom: 5px;
+    padding-top: 20px;
+    width: 45vw;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sorted-by .comment-line img {
     width: 4vw;
+    margin-right: 5px;
     border-radius: 50%;
 }
 
