@@ -17,16 +17,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 255);
+    background-color: black;
     padding: 15px;
     position: fixed;
     top: 0;
     width: 100vw;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    color: white;
 }
 
 
 /* ===============End of Navbar styling========================== */
+
+#hanburger {
+    margin-bottom: 5px;
+}
 
 
 /* ================== Main body styling ========================= */
@@ -81,13 +86,24 @@
     margin-bottom: 10px;
 }
 
+.left-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ==================== styling youtube log ======================== */
+
 #logo {
-    width: 6.5vw;
-    height: 5.5vh;
+    width: 8.5vw;
+    height: 9.5vh;
     align-self: center;
     color: cornsilk;
     padding-left: 5px;
 }
+
+
+/* ==================== End of styling youtube log ======================== */
 
 .added-details {
     display: grid;
