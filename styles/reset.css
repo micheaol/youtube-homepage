@@ -58,7 +58,7 @@
       }
       #users-comment-section {
           position: absolute;
-          top: 2180px;
+          top: 2225px;
       }
       .side-bar iframe {
           width: 25vw;
@@ -82,7 +82,7 @@
       .main-grid {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          background-color: rgba(249, 249, 249, 255);
+          background-color: black;
           padding-top: 20px;
       }
       .sorted-by .comment-line img {
@@ -107,5 +107,258 @@
           justify-content: space-between;
       }
   }
+  /* ====================== styling for screen max-width:768px======================== */
   
-  @media screen and (max-width:768px) {}
+  @media screen and (max-width:768px) {
+      .main-nav {
+          display: flex;
+          position: relative;
+          flex-direction: row;
+          justify-content: space-between;
+          background-color: black;
+          padding: 10px;
+          width: 100vw;
+          margin-bottom: 10px;
+          color: rgb(233, 229, 229);
+      }
+      #logo {
+          width: 9.5vw;
+          height: 4.5vh;
+          align-self: center;
+          color: cornsilk;
+          padding-left: 5px;
+      }
+      #mic-icon {
+          display: none;
+      }
+      .search-box {
+          width: 47vw;
+          padding: 5px;
+          border-radius: 3px;
+          border: 2px solid rgb(59, 56, 56);
+          height: 3.5vh;
+          margin-left: 10px;
+          margin-top: 15px;
+      }
+      #search-icon {
+          background-color: rgb(78, 75, 75);
+          color: black;
+          padding: 12px;
+          padding-right: 40px;
+          padding-bottom: 13px;
+          padding-left: 25px;
+          width: 2vw;
+          position: relative;
+          right: 67px;
+          border: 2px solid rgb(59, 56, 56);
+      }
+      .rigth-icons i {
+          margin-top: 25px;
+          margin-right: 5px;
+          margin-left: 5px;
+      }
+      .side-bar {
+          position: absolute;
+          background-color: rgba(249, 249, 249, 255);
+          margin-left: 55px;
+          margin-top: 5px;
+          top: 775px;
+          width: 50vw;
+      }
+      #users-comment-section {
+          position: absolute;
+          top: 1900px;
+      }
+      .side-bar iframe {
+          width: 25vw;
+          height: 12vh;
+          margin-bottom: 10px;
+      }
+      .main-content iframe {
+          width: 86vw;
+          height: 30vh;
+      }
+      .user-details .more #button-id {
+          background-color: crimson;
+          color: white;
+          height: 4vh;
+          width: 20vw;
+          margin-right: 2px;
+          font-weight: bold;
+          border: none;
+          margin-bottom: 8px;
+      }
+      .main-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          background-color: black;
+          padding-top: 20px;
+      }
+      .sorted-by .comment-line img {
+          width: 7vw;
+          margin-right: 5px;
+          border-radius: 50%;
+      }
+      .sorted-by .comment-line p {
+          border-bottom: 1px solid rgb(180, 173, 173);
+          margin-bottom: 5px;
+          padding-top: 20px;
+          width: 82vw;
+      }
+      .user-comment-line img {
+          width: 7vw;
+          height: 5vh;
+          margin-right: 5px;
+          border-radius: 50%;
+      }
+      .left-icons {
+          display: flex;
+          justify-content: space-between;
+      }
+  }
+  /* ====================== styling for screen max-width:768px======================== */
+  /* ====================== styling for screen min-width:414px======================== */
+  
+  @media screen and (max-width:414px) {
+      .main-nav {
+          display: flex;
+          position: relative;
+          flex-direction: row;
+          justify-content: space-between;
+          background-color: black;
+          padding: 10px;
+          width: 100vw;
+          margin-bottom: 10px;
+          color: rgb(233, 229, 229);
+      }
+      .main-content {
+          margin-top: 5px;
+          margin-left: 10px;
+          margin-right: 10px;
+          height: 100vh;
+          width: 100vw;
+          background-color: black;
+      }
+      #logo {
+          width: 15.5vw;
+          height: 8.5vh;
+          align-self: center;
+          color: cornsilk;
+          padding-left: 5px;
+      }
+      #mic-icon {
+          display: none;
+      }
+      .search-box {
+          width: 55vw;
+          padding: 5px;
+          border-radius: 3px;
+          border: 2px solid rgb(59, 56, 56);
+          height: 3.5vh;
+          margin-left: 15px;
+          margin-top: 20px;
+      }
+      #search-icon {
+          background-color: rgb(78, 75, 75);
+          color: black;
+          padding: 12px;
+          padding-right: 30px;
+          padding-bottom: 13px;
+          padding-left: 25px;
+          padding-bottom: 3px;
+          padding-top: 3px;
+          width: 2vw;
+          position: relative;
+          right: 55px;
+          border: 2px solid rgb(59, 56, 56);
+      }
+      .rigth-icons i {
+          margin-top: 25px;
+          margin-right: 5px;
+          margin-left: 5px;
+      }
+      .side-bar {
+          position: absolute;
+          background-color: rgba(249, 249, 249, 255);
+          margin-left: 55px;
+          margin-top: 5px;
+          top: 875px;
+          width: 50vw;
+      }
+      #users-comment-section {
+          position: absolute;
+          top: 1900px;
+      }
+      .side-bar iframe {
+          width: 25vw;
+          height: 12vh;
+          margin-bottom: 10px;
+      }
+      .main-content iframe {
+          width: 93vw;
+          height: 30vh;
+      }
+      .user-details .more #button-id {
+          background-color: crimson;
+          color: white;
+          height: 4vh;
+          width: 20vw;
+          margin-right: 2px;
+          font-weight: bold;
+          border: none;
+          margin-bottom: 8px;
+      }
+      .main-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          background-color: black;
+          padding-top: 20px;
+      }
+      .sorted-by .comment-line img {
+          width: 7vw;
+          margin-right: 5px;
+          border-radius: 50%;
+      }
+      .sorted-by .comment-line p {
+          border-bottom: 1px solid rgb(180, 173, 173);
+          margin-bottom: 5px;
+          padding-top: 20px;
+          width: 82vw;
+      }
+      .user-comment-line img {
+          width: 7vw;
+          height: 5vh;
+          margin-right: 5px;
+          border-radius: 50%;
+      }
+      .left-icons {
+          display: flex;
+          justify-content: space-between;
+      }
+      #hanburger {
+          display: none;
+      }
+      .rigth-icons i {
+          display: none;
+      }
+      .added-details {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          grid-gap: 5px;
+          padding-right: 10px;
+          margin: 20px;
+      }
+      .user-details .more {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 65px;
+          margin-bottom: 10px;
+      }
+      .user-details p {
+          margin-top: 5px;
+          margin-left: 5px;
+          margin-right: 15px;
+      }
+  }
+  /* ====================== End of styling for screen man-width:414px======================== */
