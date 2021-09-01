@@ -1,6 +1,12 @@
   /* ==============Styling for different screen sizes =============================== */
   
   @media screen and (max-width:800px) {
+      .main-grid {
+          display: flex;
+          flex-direction: row;
+          background-color: rgba(249, 249, 249, 255);
+          padding-top: 95px;
+      }
       .main-nav {
           display: flex;
           flex-direction: row;
