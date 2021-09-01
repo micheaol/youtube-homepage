@@ -562,3 +562,7 @@
       }
   }
   /* ====================== End of styling for screen min-width:375px======================== */
+  /* ====================== styling for screen min-width:360px======================== */
+  
+  @media screen and (max-width:375px) {}
+  /* ====================== styling for screen min-width:360px======================== */
