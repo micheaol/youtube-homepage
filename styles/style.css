@@ -6,8 +6,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: rgba(249, 249, 249, 255); */
     font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: cornsilk;
 }
 
 
@@ -18,11 +19,11 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     top: 0;
     width: 100vw;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: white;
 }
 
@@ -41,6 +42,7 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: rgba(249, 249, 249, 255);
     padding-top: 95px;
+    background-color: black;
 }
 
 
@@ -51,7 +53,7 @@
     margin-left: 55px;
     height: 100vh;
     /* margin-bottom: 5px; */
-    background-color: rgba(249, 249, 249, 255);
+    background-color: black;
 }
 
 .mid-item {
@@ -64,24 +66,24 @@
 }
 
 .side-bar {
-    background-color: rgba(249, 249, 249, 255);
-    margin-left: 10px;
+    background-color: black;
+    margin-left: 25px;
     margin-top: 5px;
+    width: 30vw;
 }
 
 .video-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgba(249, 249, 249, 255);
+    background-color: black;
 }
 
 .inner-item {
-    background-color: rgba(249, 249, 249, 255);
     padding: 10px;
 }
 
 .side-bar iframe {
-    width: 19vw;
+    width: 15vw;
     height: 25vh;
     margin-bottom: 10px;
 }
@@ -277,17 +279,16 @@ h4 {
 /* ===================== styling for search box icon on the navbar================= */
 
 #search-icon {
-    background-color: #e9e5e5;
-    color: black;
+    background-color: rgb(78, 75, 75);
+    color: white;
     padding: 8px;
     padding-right: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-left: 25px;
     width: 2vw;
-    /* height: 6.5vh; */
     position: relative;
     right: 67px;
-    border: 2px solid #e9e5e5;
+    border: 2px solid rgb(59, 56, 56);
 }
 
 
@@ -300,9 +301,12 @@ h4 {
     width: 47vw;
     padding: 5px;
     border-radius: 3px;
-    border: 2px solid rgb(233, 229, 229);
+    border: 2px solid rgb(59, 56, 56);
     height: 6.5vh;
     margin-left: 15px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 15px;
 }
 
 
@@ -310,7 +314,7 @@ h4 {
 
 #mic-icon {
     border-radius: 80%;
-    background-color: rgb(233, 229, 229);
+    background-color: rgb(8, 8, 8);
     padding: 12px;
     margin-left: 10px;
     position: relative;

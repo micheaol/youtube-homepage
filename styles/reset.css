@@ -8,18 +8,16 @@
           justify-content: space-between;
           background-color: black;
           padding: 10px;
-          /* position: fixed; */
-          /* top: 0; */
           width: 100vw;
           margin-bottom: 10px;
           color: rgb(233, 229, 229);
       }
       #logo {
-          width: 15.5vw;
-          height: 3.5vh;
+          width: 9.5vw;
+          height: 4.5vh;
           align-self: center;
-          padding-top: 20px;
-          margin-left: 5px;
+          color: cornsilk;
+          padding-left: 5px;
       }
       #mic-icon {
           display: none;
@@ -28,22 +26,22 @@
           width: 47vw;
           padding: 5px;
           border-radius: 3px;
-          border: 2px solid rgb(233, 229, 229);
+          border: 2px solid rgb(59, 56, 56);
           height: 3.5vh;
           margin-left: 10px;
           margin-top: 15px;
       }
       #search-icon {
-          background-color: #e9e5e5;
+          background-color: rgb(78, 75, 75);
           color: black;
           padding: 12px;
           padding-right: 40px;
-          padding-bottom: 12px;
+          padding-bottom: 13px;
           padding-left: 25px;
           width: 2vw;
           position: relative;
           right: 67px;
-          border: 2px solid #e9e5e5;
+          border: 2px solid rgb(59, 56, 56);
       }
       .rigth-icons i {
           margin-top: 25px;
@@ -103,6 +101,10 @@
           height: 5vh;
           margin-right: 5px;
           border-radius: 50%;
+      }
+      .left-icons {
+          display: flex;
+          justify-content: space-between;
       }
   }
   
