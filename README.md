@@ -6,7 +6,7 @@ For this repository, I've created a project to create a youtube clone just for t
 Technology:
 HTML, CSS, and JavaScript for the project, 
 
-
+https://github.com/micheaol/youtube-homepage/blob/main/images/youtubeclone.PNG
 
 Live Demo Live Demo Link : https://micheaol.github.io/youtube-homepage/
 
